@@ -1,0 +1,5 @@
+Mariana Jimenez|,A98201029,Ingeniería,Octavo Semestre,8
+Mariana Angel,A0098273,Escuela de Ciencias de la Educación,Tercer Semestre,91
+Susana Maya,A029932,Ingeniería,Quinto Semestre,7
+Andrea Marmolejo,A0928399,Ciencias Naturales,Quinto Semestre,15
+Adriana Cordoba ,A918921,Derecho y Ciencias Sociales,Tercer Semestre,19

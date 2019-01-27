@@ -1,0 +1,10 @@
+﻿Primer Semestre,0
+Segundo Semestre,0
+Tercer Semestre,0
+CUarto Semestre,0
+Quinto Semestre,0
+Sexto Semestre,0
+Séptimo Semestre,0
+Octavo Semestre,0
+Noveno Semestre,0
+Décimo Semestre,0
