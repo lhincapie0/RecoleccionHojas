@@ -60,7 +60,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Ink Free", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(549, 170);
+            this.label3.Location = new System.Drawing.Point(519, 164);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(95, 25);
             this.label3.TabIndex = 2;
@@ -71,7 +71,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Ink Free", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(549, 81);
+            this.label4.Location = new System.Drawing.Point(519, 75);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(100, 25);
             this.label4.TabIndex = 3;
@@ -94,7 +94,7 @@
             this.nombreTxt.Font = new System.Drawing.Font("Ink Free", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nombreTxt.Location = new System.Drawing.Point(230, 74);
             this.nombreTxt.Name = "nombreTxt";
-            this.nombreTxt.Size = new System.Drawing.Size(193, 32);
+            this.nombreTxt.Size = new System.Drawing.Size(238, 32);
             this.nombreTxt.TabIndex = 5;
             // 
             // codigoTxt
@@ -102,7 +102,7 @@
             this.codigoTxt.Font = new System.Drawing.Font("Ink Free", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.codigoTxt.Location = new System.Drawing.Point(230, 164);
             this.codigoTxt.Name = "codigoTxt";
-            this.codigoTxt.Size = new System.Drawing.Size(193, 32);
+            this.codigoTxt.Size = new System.Drawing.Size(238, 32);
             this.codigoTxt.TabIndex = 6;
             // 
             // semestreBox
@@ -120,9 +120,9 @@
             "Octavo Semestre",
             "Noveno Semestre",
             "Décimo Semestre"});
-            this.semestreBox.Location = new System.Drawing.Point(674, 73);
+            this.semestreBox.Location = new System.Drawing.Point(644, 67);
             this.semestreBox.Name = "semestreBox";
-            this.semestreBox.Size = new System.Drawing.Size(205, 33);
+            this.semestreBox.Size = new System.Drawing.Size(237, 33);
             this.semestreBox.TabIndex = 7;
             // 
             // facultadBox
@@ -136,9 +136,9 @@
             "Derecho y Ciencias Sociales",
             "Escuela de Ciencias de la Educación",
             "Ingeniería"});
-            this.facultadBox.Location = new System.Drawing.Point(674, 162);
+            this.facultadBox.Location = new System.Drawing.Point(644, 156);
             this.facultadBox.Name = "facultadBox";
-            this.facultadBox.Size = new System.Drawing.Size(205, 33);
+            this.facultadBox.Size = new System.Drawing.Size(237, 33);
             this.facultadBox.TabIndex = 8;
             this.facultadBox.SelectedIndexChanged += new System.EventHandler(this.facultadBox_SelectedIndexChanged);
             // 

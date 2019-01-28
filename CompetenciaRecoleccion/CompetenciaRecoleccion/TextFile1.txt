@@ -1,5 +1,22 @@
-Mariana Jimenez|,A98201029,Ingeniería,Octavo Semestre,8
+Mariana Jimenez,A98201029,Ingeniería,Octavo Semestre,8
 Mariana Angel,A0098273,Escuela de Ciencias de la Educación,Tercer Semestre,91
 Susana Maya,A029932,Ingeniería,Quinto Semestre,7
 Andrea Marmolejo,A0928399,Ciencias Naturales,Quinto Semestre,15
 Adriana Cordoba ,A918921,Derecho y Ciencias Sociales,Tercer Semestre,19
+Juan Camilo Perez,A00927631,Escuela de Ciencias de la Educación,Séptimo Semestre,10
+Adriana Cordoba,A0098463,Derecho y Ciencias Sociales,Décimo Semestre,19
+Manuel Pelaez,A00092861,Ciencias de la Salud,Primer Semestre,12
+Alejandro Buitrago,A9028102,Escuela de Ciencias de la Educación,Sexto Semestre,12
+Camila Jimenez,A0092832,Ciencias Administrativas y Económicas,Séptimo Semestre,16
+Alejandro Perez,A092093,Ciencias Naturales,Cuarto Semestre,30
+Juan Jose Restrepo,A9829938,Ciencias de la Salud,Séptimo Semestre,23
+Juan Carlos Lozano,A00928731,Ingeniería,Séptimo Semestre,25
+Ana Maria Quijano,A0019283,Ciencias de la Salud,Noveno Semestre,17
+Alejandra Arias,A00918273,Ciencias Administrativas y Económicas,Tercer Semestre,12
+Mariana Angel,A0929283,Ciencias de la Salud,Noveno Semestre,9
+Sebastian Perez,A00192831,Ciencias Naturales,Primer Semestre,18
+Mateo Moreno,A0092832,Derecho y Ciencias Sociales,Sexto Semestre,21
+Nicolas Chaparro,A09832991,Derecho y Ciencias Sociales,Séptimo Semestre,15
+Andres Solarte,A0092839,Ingeniería,Sexto Semestre,29
+Laura Catalina Mejia,A00982931,Derecho y Ciencias Sociales,Segundo Semestre,8
+Melissa Gutierrez,A9198212,Ingeniería,Segundo Semestre,18

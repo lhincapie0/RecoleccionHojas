@@ -29,8 +29,7 @@ namespace CompetenciaRecoleccion
         private void volverBut_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 h = new Form1();
-            h.Show();
+            f.Show();
         }
 
         private void registrarBut_Click(object sender, EventArgs e)

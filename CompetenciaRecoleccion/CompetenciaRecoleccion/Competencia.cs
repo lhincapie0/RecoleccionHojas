@@ -20,36 +20,7 @@ namespace CompetenciaRecoleccion
             Estudiantes = new List<Estudiante>();
             facultades = new Facultad[6];
             semestres = new Semestre[10];
-
-
-            String line ="";
-            //lee los datos de los estudiantes
-            try
-            {
-                StreamReader reader = new StreamReader("..\\..\\TextFile1.txt");
-                while ((line = reader.ReadLine()) != null)
-                {
-
-                    String[] datos = line.Split(',');
-                    String nombre = datos[0];
-                    String codigo = datos[1];
-                    String facultad = datos[2];
-                    String semestre = datos[3];
-                    String bolsas = datos[4];
-                    int no_bolsas = Convert.ToInt32(bolsas);
-                    Console.WriteLine(nombre);
-                    Console.WriteLine(codigo); Console.WriteLine(facultad);
-                    Estudiante ag = new Estudiante(nombre, codigo, facultad, semestre, no_bolsas);
-                    Estudiantes.Add(ag);
-                }
-                reader.Close();
-
-            }
-            catch
-            {
-
-            }
-
+            String line = "";
             int a = 0;
             // lee los datos por facultad
             try
@@ -99,6 +70,36 @@ namespace CompetenciaRecoleccion
             }
 
 
+            //lee los datos de los estudiantes
+            try
+            {
+                StreamReader reader = new StreamReader("..\\..\\TextFile1.txt");
+                while ((line = reader.ReadLine()) != null)
+                {
+
+                    String[] datos = line.Split(',');
+                    String nombre = datos[0];
+                    String codigo = datos[1];
+                    String facultad = datos[2];
+                    String semestre = datos[3];
+                    String bolsas = datos[4];
+                    int no_bolsas = Convert.ToInt32(bolsas);
+                    Console.WriteLine(nombre);
+                     Console.WriteLine(facultad);
+                    Estudiante ag = new Estudiante(nombre, codigo, facultad, semestre, no_bolsas);
+                    Estudiantes.Add(ag);
+               
+               
+                }
+                reader.Close();
+            }
+            catch
+            {
+
+            }
+
+
+          
 
         }
 
@@ -117,12 +118,73 @@ namespace CompetenciaRecoleccion
                 StreamWriter writer =File.AppendText("..\\..\\TextFile1.txt");
                 writer.WriteLine(nombre + "," + codigo + "," + facultad + "," + semestre + "," + bolsas);
                 writer.Close();
-            
             }
             catch
             {
                 Console.WriteLine("No se pudo guardar el dato");
             }
-         }
+
+
+            Boolean ya = false;
+            for (int i = 0; i < semestres.Length && !ya; i++)
+            {
+                if (semestre.Equals(semestres[i].nombre))
+                {
+                    ya = true;
+                    semestres[i].no_bolsas += bolsas;
+                    Console.WriteLine("SEMESTRES ");
+                }
+            }
+            Boolean ya1 = false;
+            for (int i = 0; i < facultades.Length && !ya1; i++)
+            {
+                Console.WriteLine(facultad);
+
+                Console.WriteLine(facultades[i].nombre);
+                if (facultades.Equals(facultades[i].nombre))
+                {
+                    ya = true;
+                    facultades[i].no_bolsas += bolsas;
+                }
+            }
+
+            try
+            {
+
+                StreamWriter writer = new StreamWriter("..\\..\\Semestres.txt");
+                for(int i = 0; i<semestres.Length;i++)
+                {
+                    writer.WriteLine(semestres[i].nombre + "," + semestres[i].no_bolsas);
+               
+                }
+
+                writer.Close();
+              
+            }
+            catch
+            {
+                Console.WriteLine("No se pudo guardar el dato");
+            }
+
+           
+
+            try
+            {
+
+                StreamWriter writer = new StreamWriter("..\\..\\Facultades.txt");
+                for (int i = 0; i < facultades.Length; i++)
+                {
+                    writer.WriteLine(facultades[i].nombre + "," + facultades[i].no_bolsas);
+
+                }
+
+                writer.Close();
+
+            }
+            catch
+            {
+                Console.WriteLine("No se pudo guardar el dato");
+            }
+        }
     }
 }

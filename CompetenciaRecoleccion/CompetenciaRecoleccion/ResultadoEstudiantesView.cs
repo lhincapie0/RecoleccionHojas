@@ -14,10 +14,11 @@ namespace CompetenciaRecoleccion
     public partial class ResultadoEstudiantesView : Form
     {
 
-        private Form1 f;
+        public Form1 f;
         public ResultadoEstudiantesView(Form1 f)
         {
             InitializeComponent();
+            this.f = f;
 
             List<Estudiante> estudiantes = new List<Estudiante>();
             try
@@ -72,6 +73,22 @@ namespace CompetenciaRecoleccion
         private void listView1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void ResultadoEstudiantesView_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void volverBut_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            f.Show();
         }
     }
 }

@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace CompetenciaRecoleccion
 {
-    class Semestre
+    public class Semestre
     {
-        private String nombre { get; set; }
-        private int no_bolsas { get; set; }
+        public String nombre { get; set; }
+        public int no_bolsas { get; set; }
 
         public Semestre(String nombre, int no_bolsas)
         {

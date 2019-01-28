@@ -1,6 +1,6 @@
-﻿Ciencias Administrativas y Económicas,0
-Ciencias de la Salud,0
-Ciencias Naturales,0
-Derecho y Ciencias Sociales,0
-Escuela de Ciencias de la Educación,0
-Ingeniería,0
+Ciencias Administrativas y Económicas,16
+Ciencias de la Salud,64
+Ciencias Naturales,45
+Derecho y Ciencias Sociales,38
+Escuela de Ciencias de la Educación,113
+Ingeniería,51
